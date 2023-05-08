@@ -1,0 +1,205 @@
+1. Describe about some characteristics of jenkins
+The given below are some of its characteristics
+• Simple to install
+• Simple configuration
+• Plugins are available
+• It has extensibility
+• Simple to distribute
+• User friendly
+• Simple to upgrade
+2. Describe the blue ocean.
+It is a kind of UI designed for jenkin, that is used to personalize the designs. With the help of its interface, customers may design the CI of pipelines. There is no requirement of technical skills for designing a pipeline to present visually, simply by step by step.
+3. List out some advantages of jenkins ?
+• It maintains documentation with high quality
+• It provides customer support
+• It offers large amount of useful information
+• Simple to use
+• It has portability
+4. Describe what is CI ?
+It is a practice of development in which developers need to integrate the code many times with a shared respiratory. It helps to identify the errors with high speed and recognise them more simply, it turns out to be good software development practice and maintaining important principles like control of revision, automation of build and test automation.
+5. Define DSL in jenkins ?
+It is the essential plugin in jenkin which permits to manage the code configuration. It includes two parts one is DSL which helps users in defining the language that is based on Groovy, and other one is the plugin of jenkin which helps for script management and to design jobs in jenkin.
+6. What is continuous testing ?
+This is the executive process for test automation in the pipelines of software delivery, which helps us to detect the risks of business that are associated with the software.
+7. Explain what is SCM ?
+It identifies the position of source code in jenkin, its starting is described as jobs.scm in jenkin. It explains the attributes of the SCM which accepts various definitions.
+8. What are the parameters for a build ?
+It utilizes the different parameters of input helped for execution, when we have various test suits and need to run one then we may choose parameters to select which should run. We are required to explain the same when we choose a particular parameter, to explain our job parameters. It maintains various kinds of parameters.
+9. What is the process of creating a backup and copy files ?
+All the logs of the build are saved by jenkin, the home directory saves the configurations. It contains complete node configurations of slave and jobs, for jenkins backup we require to back up its home directory regularly. For the jenkin copy we need to replicate the directory of the job.
+10. Describe a job in jenkins ?
+In the complete build process it is one of the essential part which compiles the source code and helps to deploy the web server application
+11. Describe the advantage of the JENKIN-HOME directory ?
+JENKIN HOME directory is used to collect and store the complete settings and logs.
+12. Describe agent directive.
+It is used to direct the jenkin for the pipeline's execution, they need an agent which creates allocation and includes checkout files, that is essential for pipeline.
+13. Define the agent.
+It is a kind of container used while the controller is directing by connecting tasks of execution to the controller. At a particular point the execution is specified in complete pipeline.
+14. Describe a trigger. How to identify the new commit ?
+It is described while the pipeline is executed, commit is generated every time while during integration of the jenkin.
+• Download and set the plugin of Git
+• Later we can design triggers which specialize the beginning of the new build.
+Jenkins Interview Questions for Intermediate:
+1. How to secure jenkins ?
+The given methods helps to secure jenkins
+• Scrutinize the global security
+• Confirm that it is integrated by proper login by using organizations customer directories
+• Matrix of the project is permitted for best access
+• The setting process is automated and helps to jenkin script control.
+2. How to schedule a build in jenkins ?
+1. It may be scheduled with the help of management commits of the source code continuously.
+2. Then the build is requests manually
+3. By using the jobs of CRON at a particular time, the schedule is done to run.
+Jenkins Training
+• Master Your Craft
+• Lifetime LMS & Faculty Access
+• 24/7 online expert support
+• Real-world & Project Based Learning
+3. What is the process of cloning a Git repository ?
+First we required to give the email and name of the user for our system of jenkin, then it allowed us to go into the directory of our job and command execution for git config.
+4. How to advance jenkin from one server to the next ?
+Like given below we have different ways for that
+• We can easily advance a job, which is from one download of jenkin to the next one by copying the directory of job that is corresponding
+• We are required to create an existing job copy through cloning a directory with another name.
+• By renaming the job directory's renaming we can rename the existing job.
+5. list out some variables of jenkin environment ?
+• P4_CHANGELIST
+• P4_CLIENT
+• P4_PORT
+• P4_ROOT
+• P4_USER
+• JENKINS_URL
+• WORKSPACE
+• NODE_LABELS
+6. What is the process to download the jenkins ?
+1. First we need to download the version 8 of java
+2. Then download the version 9 of apache tomcat
+3. Install the war file of jenkin
+4. The war file of jenkin need to be deploy
+5. Finally download the plugins which are suggested
+7. How to use jenkins ?
+• This process contains the packages of installer, which is helpful for the main operating system
+• For big purpose the individual projects are integrated
+• It continues the sync of our team
+• It creates jobs of audit past and troubleshoot without any problem
+• It gave support for our data which is helpful for the management of project
+8. Mention some benefits of jenkins.
+• It offers development and teams of operation collaboration, and units them as one team of DevOps.
+• It simply identifies the errors of code
+• The simple deployment of code is generated with the help of reports designing
+• It helps to integrate the work automation and decreases the count of issues that are integrated.
+9. In what way CI achieves the use of jenkins ?
+The following are steps for it
+1. Developers perform the changes of source code, which helps to share its Git respiratory.
+2. Its server checks the git respiraoty which is shared, at particular time gaps to identify the build changes.
+3. Developers are notified with the results of the test and build.
+4. By using a test server namely selenium it exposes the application of the built and helps to run the automated test.
+5. The build which is tested is position to the production
+10. At which stage DevOps fit with jenkins ?
+It is one of the best practices of software development that collaborates the development of software with the operations of IT. It turns the complete lifecycle of development into short and simple by delivering builds continuously, an essential role is played by jenkin as it is used for the integration of build automation and the process of deployment.
+11. What is the process of creating a job ?
+First we need to click on the new job option in the dashboard, then we can design a job and we have different options like SCM used to control the notifications and scripts of the build.
+12. List out various kinds of pipelines in jenkins ?
+Jenkin contains 3 kinds of pipelines as given below
+• Pipeline of continuous delivery and continuous integration
+• Pipeline of scripted
+• Pipeline of declarative
+13. Jenkins uses which syntax for job scheduling ?
+Jenkins uses corn syntax for job scheduling, which contains five asterisks everyone of them are separated with a gap. It is like [hours] [minutes] [day of the week] [month] [day of the month], when we want to create cron every month at 11:03, it is like 03 11**1
+14. How to start Jenkins by using the command line ?
+By using jenkins.exe start
+15. Make a comparison between position section, agent and jenkinsfile ?
+1. Agent is a kind of directive which specialises jenkin for pipeline execution in specific order.
+2. Jenkinsfile is a type of text file that is used to describe the pipeline, and it is checked in respiratory.
+3. Post section runs at the executive pipelines end point.
+Jenkins Interview Questions for Experienced:
+1. Briefly explain the working of the jenkins ?
+While the developers do some changes in code and execute them to respiratory, then jenkin carries out those changes to a build as it continuously checks the changes taking place in respiratory. Developers get notified when a build fails to work, when build passes then it is placed for the test. If the test is successful the reports are created and delivered to developers, this is a continuous process until the success of all tests and finally code is positioned for production.
+2. Define the jenkins process ?
+1. The continuous process of delivery and deployment is automated by jenkin by using plugins, its process is like the given below.
+2. Developers performs different changes of source code for the respiratory of Git
+3. Its server continuously checks for the changes of respiratory and a build is created for each check in.
+4. Its application is built to position the server for testing and the feedback comes as a result.
+5. After the completion of test performance on its server, then on the server of production the build of code is done.
+6. Finally through different levels developers are notified by the feedback.
+3. What is the process for jenkins ?
+1. Developers need to commit the code for the respiratory of source code, then the server of jenkin conducts the respiratory check for changes at general intervals of time.
+2. Later commit happens and its server identifies the changes which have taken place, then it pulls those changes and starts creating a new build.
+3. When the process fails then that particular team get notification
+4. When the process becomes successful, then it deploys its server in the tests.
+5. After the completion of the process it provides feedback, and gives notifications for the developer regarding build and its results.
+6. Jenkins continues the checking and the entire process repeats continuously.
+
+4. What is the process of user authentication in jenkins ?
+It has three ways for user authentication in jenkins
+• It is one of the best ways, in that it collects the user credentials and data in the database.
+• Jenkins is configured to help the mechanism authentication be explained with the help of the deployed server of the application.
+• It is configured against the server of LDAP.
+5. Make a comparison between jenkin and Bamboo .
+• Bamboo: It is a kind of commercial tool and maintains its own team of development, it includes various features of user friendly, it includes many built in features along with plugins on marketplace atlassian.
+• Jenkin: It is a kind of open source tool that has support from a large global community, it maintains less user friendly features, and to perform different duties it maintains various plugins.
+6. How to create a multibranch pipeline ?
+• First we need to go to the dashboard of jenkins then design the new item by selecting the new item from the left menu on the top of the dashboard.
+• Then required to give a name for the project from shown options, then click on the multibranch pipeline.
+• To add credentials for branch source we need to choose the location of respiratory.
+• In the next step we need to save that project.
+• It designs a multibranch pipeline automatically, which is used for respiratories to contain jenkin files.
+• We require Hook Url for github connection, that url is available at the setting of the repository.
+• We have to add this to the section of webhooks.
+• When a job is generated then automatically build is designed by jenkins.
+7. How to create a workflow of continuous delivery ?
+We are required to design a branch for workflow creation, changes of code and testing takes place in the branch. Those changes collaborate and deliver after the successful completion of the test.
+
+8. Explain pipeline as a code in jenkins ?
+It is a technique used to maintain the continuous integration and continuous deployment workflow in code respiratory, without any requirement of any configurations of branch. It includes the declarative and script syntax.
+1. Declarative: It is used for simple way for designing the pipelines, the complete pipeline aspects are controlled
+2. Scriptive: By using the execution of the lightweight jenkin runs, it is helpful for code as a pipeline.
+9. What should we do when our project build breaks ?
+It includes to ways for resolving this issue
+• To fix this issue we required the problem replication in the debung of our local set up.
+• We need to check it twice and console whether files are taken or not, and place the missed changes properly.
+10. Describe about Maven and its Advantages of integration ?
+A tool of build management, with the help of pom.xml, we required to configure the essential dependencies for the build and to run the code. The complete lifecycle of the project is managed by maven, it efficiently executes and designs the project.
+11. What is the process of Git integration in jenkin ?
+The following steps displays the process of Git integration in jenkin
+• Click the jenkin on its dashboard
+• And then select the plugins to manage
+• Later in page of plugin
+• Click in the plugin of Git and select download
+• We have the choice to choose that install now or install it later
+• We received a message of no updates when we already have installed plugins of Git
+12. What is the process for achieving the CI ?
+• Developers need to execute the changes of source code to share the respiratory of the Git
+• Particular developers are notified with the results of build
+• At specific time the changes and the respiratory of Git checked and identified by the server of jenkin.
+• Then the build is situated on the server of production.
+13. Explain kubernetes and how to integrate with jenkins ?
+A tool of orchestration, which is used to design various instances of containers to gain fault tolerance. It is helpful for the deployment of continuous deploy.
+14. How to use the third party tool in jenkins ?
+The following is the process of how to use tools of third party in jenkins
+• We need to download a third party tool.
+• And then install the plug in which maintains the tool with the help of the administrator console of jenkin.
+• The tool required to configure by the administrator console.
+• Finally the plug in is used.
+15. Describe how to design and build a job in jenkins ?
+1. First, we need to select new item in the dashboard of jenkins
+
+2. Then we were required to give a name for that new item, for example if we gave the name as helloworld and we needed to choose a project option in freestyle.
+
+Jenkins Training
+Weekday /
+3. It comes as in the given diagram in that we may state the job particulars.
+
+4. Later we were required to identify the file location that is essential to build.
+
+5. Then we need to go to the section of build, and select the step of add build that helps to execute the command of the windows batch.
+
+6. In that particular window of command and choose the save button
+
+7. After saving it we may select the build option which helps us to see when we completely define a job
+
+8. When the schedule of build is done then it starts running, the section of history displays the progress of build.
+
+9. After the successful completion of build, it's status will display whether it is a success or fail.
+
+10. Finally we need to select the link of console output for the build details.
